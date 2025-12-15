@@ -1,0 +1,37 @@
+# ===============================
+# Sensitive files (DO NOT UPLOAD)
+# ===============================
+config.php
+db.php
+connection.php
+.env
+.env.*
+
+# ===============================
+# Database exports
+# ===============================
+*.sql
+*.sqlite
+
+# ===============================
+# Dependencies (if any)
+# ===============================
+/vendor/
+/node_modules/
+
+# ===============================
+# Cache / temp
+# ===============================
+cache/
+tmp/
+sessions/
+*.log
+
+# ===============================
+# Editor / OS files
+# ===============================
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
